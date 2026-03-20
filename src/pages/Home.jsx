@@ -49,6 +49,18 @@ const Home = () => {
                                 View Pricing
                             </Button>
                         </div>
+                        
+                        {/* Interactive Reel Video */}
+                        <div className="mt-8 animate-slide-up animate-delay-300" style={{ maxWidth: '280px', marginTop: '2rem', borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)', border: '2px solid var(--color-primary, #ff3e00)' }}>
+                            <video 
+                                src="/antigravity_reel.mp4" 
+                                autoPlay 
+                                loop 
+                                muted 
+                                playsInline
+                                style={{ width: '100%', display: 'block' }}
+                            />
+                        </div>
                     </div>
  
                     {/* SaaS Comparison Split */}

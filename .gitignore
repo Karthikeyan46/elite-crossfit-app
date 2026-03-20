@@ -25,3 +25,4 @@ dist-ssr
 
 # Media files
 *.mp4
+!public/antigravity_reel.mp4
