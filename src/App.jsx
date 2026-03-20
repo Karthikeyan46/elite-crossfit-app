@@ -45,7 +45,8 @@ function App() {
           <Routes>
             <Route path="/login"      element={<Login />} />
             <Route path="/onboarding" element={<Onboarding />} />
-            <Route path="/"           element={<ProtectedRoute role="client"><ClientHome /></ProtectedRoute>} />
+            <Route path="/"           element={<Home />} />
+            <Route path="/dashboard"  element={<ProtectedRoute role="client"><ClientHome /></ProtectedRoute>} />
             <Route path="/workout"    element={<ProtectedRoute role="client"><ClientWorkout /></ProtectedRoute>} />
             <Route path="/food"       element={<ProtectedRoute role="client"><ClientFood /></ProtectedRoute>} />
             <Route path="/scan"       element={<ProtectedRoute role="client"><ClientScan /></ProtectedRoute>} />
