@@ -31,6 +31,18 @@ const Home = () => {
             <section className="hero-section">
                 <div className="hero-overlay"></div>
                 <div className="container hero-content">
+                    {/* Interactive Reel Video */}
+                    <div className="hero-video-container animate-slide-up" style={{ borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)', border: '2px solid var(--color-primary, #cdff00)', width: '100%', maxWidth: '300px', margin: '0 auto' }}>
+                        <video 
+                            src="/antigravity_reel.mp4" 
+                            autoPlay 
+                            loop 
+                            muted 
+                            playsInline
+                            style={{ width: '100%', height: 'auto', display: 'block', maxHeight: '70vh', objectFit: 'cover' }}
+                        />
+                    </div>
+
                     <div className="hero-text-content">
                         <h1 className="hero-title animate-slide-up">
                             The Operating System for <span className="text-gradient">Modern Fitness</span>
@@ -48,18 +60,6 @@ const Home = () => {
                             }}>
                                 View Pricing
                             </Button>
-                        </div>
-                        
-                        {/* Interactive Reel Video */}
-                        <div className="mt-8 animate-slide-up animate-delay-300" style={{ maxWidth: '280px', marginTop: '2rem', borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)', border: '2px solid var(--color-primary, #ff3e00)' }}>
-                            <video 
-                                src="/antigravity_reel.mp4" 
-                                autoPlay 
-                                loop 
-                                muted 
-                                playsInline
-                                style={{ width: '100%', display: 'block' }}
-                            />
                         </div>
                     </div>
  
