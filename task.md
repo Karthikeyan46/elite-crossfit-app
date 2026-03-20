@@ -1,0 +1,21 @@
+# Gym Web Application
+
+- [x] Project Setup
+  - [x] Initialize Vite React project
+  - [x] Install React Router
+- [/] Implement Core Design System
+  - [/] Define CSS variables for colors, typography, spacing
+  - [ ] Create base styles and animations
+- [ ] Build Components
+  - [ ] Navigation Bar
+  - [ ] Footer
+  - [ ] Reusable UI Elements (Buttons, Cards)
+- [ ] Develop Pages
+  - [ ] Home Page (Hero section, gym overview)
+  - [ ] Blog Page (Fitness articles)
+  - [ ] Gallery Page (Gym facilities images)
+  - [ ] Testimonials Page (Client feedback)
+  - [ ] Contact Us Page (Contact form, Address, Location Link)
+- [ ] Polish and Optimize
+  - [ ] Add hover effects and micro-animations
+  - [ ] Ensure mobile responsiveness
